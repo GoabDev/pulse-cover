@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#08784d" />
+    <title>Pulse Cover — Insurance you toggle on</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="phone-shell">
+      <div id="app" class="app-content"></div>
+      <nav class="bottom-nav" aria-label="Main navigation">
+        <button class="nav-item active" data-screen="home"><span>⌂</span><small>Home</small></button>
+        <button class="nav-item" data-screen="pay"><span>⇄</span><small>Pay</small></button>
+        <button class="nav-item" data-screen="cards"><span>▣</span><small>Cards</small></button>
+        <button class="nav-item" data-screen="more"><span>⋯</span><small>More</small></button>
+      </nav>
+    </main>
+    <div id="toast" class="toast" role="status"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
